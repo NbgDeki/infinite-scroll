@@ -1,0 +1,53 @@
+/*
+0-600px: Phone
+0-900px: Tablet portrait
+0-1200px: Tablet lanscape
+[1200-1800] is where our normal styles apply
+1800px+ : Phone
+*/
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Bebas Neue, sans-serif;
+  background-color: whitesmoke;
+}
+
+img,
+picture,
+svg,
+video {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  font-style: italic;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  shape-margin: 0.75rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  margin: 2.5rem 0;
+  letter-spacing: 0.5rem;
+}
+
+/*# sourceMappingURL=main.css.map */
