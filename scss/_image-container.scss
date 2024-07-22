@@ -1,0 +1,12 @@
+.image-container {
+  margin: 1rem 30%;
+
+  @include max(s) {
+    margin: 1rem;
+  }
+
+  img {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+}

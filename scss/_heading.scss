@@ -3,4 +3,8 @@ h1 {
   font-size: 4rem;
   margin: 2.5rem 0;
   letter-spacing: 0.5rem;
+
+  @include max(s) {
+    font-size: 2rem;
+  }
 }

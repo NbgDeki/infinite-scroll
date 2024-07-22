@@ -49,6 +49,11 @@ h1 {
   margin: 2.5rem 0;
   letter-spacing: 0.5rem;
 }
+@media (width <= 37.5em) {
+  h1 {
+    font-size: 2rem;
+  }
+}
 
 .loader {
   position: fixed;
@@ -63,6 +68,19 @@ h1 {
   top: 50%;
   left: 50%;
   translate: -50% -50%;
+}
+
+.image-container {
+  margin: 1rem 30%;
+}
+@media (width <= 37.5em) {
+  .image-container {
+    margin: 1rem;
+  }
+}
+.image-container img {
+  width: 100%;
+  margin-top: 0.5rem;
 }
 
 /*# sourceMappingURL=main.css.map */
